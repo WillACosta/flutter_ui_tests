@@ -7,17 +7,17 @@ Flutter UI tests showcase using `golden_toolkit`, `Finder API` and integration t
 
 ### About
 
-Unit UI tests are extremely important to guarantee the high quality of our interfaces
-for providing a better user experience throughout the application. For achieving that
+UI tests are extremely important to guarantee the high quality of our interfaces
+for providing a better user experience throughout the application. For achieving this
 we can simply use the following approaches:
 
-- Golden Tests using `golden_toolkit`
+- UI Regression tests with Golden testing using `golden_toolkit`
 - Widget tests using `Finder` API provided by Flutter framework
 - Integration tests using `integration_tests` also called E2E testing
 
 ### Execute Tests
 
-Execute all tests
+Execute widget and golden tests
 
 ```bash
 flutter test
