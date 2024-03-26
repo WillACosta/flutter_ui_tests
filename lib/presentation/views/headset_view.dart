@@ -80,6 +80,7 @@ class HeadsetButton extends StatelessWidget {
       child: Material(
         color: Colors.transparent,
         child: InkWell(
+          key: const Key('headset-button'),
           onTap: onTap,
           borderRadius: BorderRadius.circular(25),
           splashColor: Theme.of(context).colorScheme.tertiaryContainer,
